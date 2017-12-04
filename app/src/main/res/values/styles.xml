@@ -8,4 +8,55 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BotonColores" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#46eae1e2</item>
+        <item name="colorButtonNormal">#e90d2a</item>
+    </style>
+
+    <style name="SLogo">
+        <item name="android:background">@drawable/bordes_redondos_logo</item>
+    </style>
+
+    <style name="SFondo">
+        <item name="android:background">@drawable/fondo</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SCuadroWhite">
+        <item name="android:background">@drawable/bordes_redondos_cuadro_white</item>
+    </style>
+
+    <style name="SCuadroBlue">
+        <item name="android:background">@drawable/bordes_redondos_cuadro_blue</item>
+    </style>
+
+    <style name="SCuadroOrange">
+        <item name="android:background">@drawable/bordes_redondos_cuadro_orange</item>
+    </style>
+
+    <style name="SBotonBlue">
+        <item name="android:background">@drawable/bordes_redondos_boton_blue</item>
+    </style>
+
+    <style name="SBotonOrange">
+        <item name="android:background">@drawable/bordes_redondos_boton_orange</item>
+    </style>
+
+    <style name="STextview">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

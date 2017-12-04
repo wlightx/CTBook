@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CTBook</string>
+
+    //Soluciona un error que surge al usar TextInputLayout
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
 </resources>

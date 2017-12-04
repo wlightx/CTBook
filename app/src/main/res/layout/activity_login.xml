@@ -1,18 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/SFondo"
     tools:context="com.retailservices.camcp.ctbook.Login">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        style="@style/SCuadroWhite"
+        android:alpha="0.9">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            style="@style/SLogo">
+
+            <ImageView
+                android:background="@drawable/ctpos2"
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                tools:ignore="ContentDescription,InefficientWeight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                >
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etUserLogin"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Usuario"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                app:passwordToggleEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etPassLogin"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <RadioButton
+                android:id="@+id/rbSesionLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="No cerrar sesion"/>
+
+            <Button
+                android:id="@+id/btnIngresarLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingresar"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                style="@style/SBotonOrange"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
