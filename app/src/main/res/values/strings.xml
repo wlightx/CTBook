@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">CTBook</string>
 
-    //Soluciona un error que surge al usar TextInputLayout
-    <item name="visible" type="id"/>
-    <item name="masked" type="id"/>
+    <!--Soluciona un error que surge al usar TextInputLayout-->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+    <!--Navigation Drawer-->
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sign_off">Cerrar Sesión</string>
+
+    <!--Menu navigation-->
+    <string name="title_nav_register">Registrar</string>
 
 </resources>
