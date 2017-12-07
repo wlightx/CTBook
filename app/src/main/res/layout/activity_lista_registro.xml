@@ -5,9 +5,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Button
-        android:id="@+id/btnDialog"
+        android:id="@+id/btnRegisterBusinessName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boton"/>
+        android:text="Registrar Razón Social"/>
+
+    <Button
+        android:id="@+id/btnRegisterRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Conexión Remota"/>
 
 </LinearLayout>

@@ -16,4 +16,25 @@
     <!--Menu navigation-->
     <string name="title_nav_register">Registrar</string>
 
+    <!--Dialog register business name-->
+    <string name="register_name_business_name">Nombre</string>
+    <string name="register_rut_business_name">Rut</string>
+    <string name="register_address_business_name">Dirección</string>
+
+    <!--Dialog register local-->
+    <string name="register_name_local">Nombre</string>
+    <string name="register_address_local">Dirección</string>
+    <string name="register_phone_local">Teléfono</string>
+
+    <!--Dialog register remote connection-->
+    <string name="register_name_remote_connection">Nombre</string>
+    <string name="register_id_anydesk_remote_connection">ID Anydesk</string>
+    <string name="register_pass_anydesk_remote_connection">Contraseña Anydesk</string>
+    <string name="register_id_teamviewer_remote_connection">ID TeamViewer</string>
+    <string name="register_pass_teamviewer_remote_connection">Contraseña TeamViewer</string>
+    <string name="register_ip_remote_desktop_remote_connection">IP Escritorio Remoto</string>
+    <string name="register_pass_remote_desktop_remote_connection">Contraseña Escritorio Remoto</string>
+    <string name="register_ip_vpn_remote_connection">IP VPN</string>
+    <string name="register_pass_vpn_remote_connection">Contraseña VPN</string>
+
 </resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/etNameRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_name_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etIdAnydeskRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_id_anydesk_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etPassAnydeskRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_pass_anydesk_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etIdTeamViewerRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_id_teamviewer_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etPassTeamViewerRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_pass_teamviewer_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etIpRemoteDesktopRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_ip_remote_desktop_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etPassRemoteDesktopRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_pass_remote_desktop_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etIpVpnRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_ip_vpn_remote_connection"/>
+
+    <EditText
+        android:id="@+id/etPassVpnRemoteConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/register_pass_vpn_remote_connection"/>
+
+</LinearLayout>
